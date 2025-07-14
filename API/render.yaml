@@ -1,1 +1,7 @@
-3.11.9
+services:
+  - type: web
+    name: your-api-name
+    env: python
+    runtime: python-3.11.9
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host=0.0.0.0 --port=10000
