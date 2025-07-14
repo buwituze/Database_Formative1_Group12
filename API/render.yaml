@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-api-name
+    name: pipeline_group12-api
     env: python
     runtime: python-3.11.9
     buildCommand: pip install -r requirements.txt
