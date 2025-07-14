@@ -41,6 +41,11 @@ A fast and async REST API built with **FastAPI** and **MongoDB** to manage salar
 
 To test/use the FastAPI, run:
 
+* Access deployed API:
+  
+  ```bash
+  https://loan-api-gvx3.onrender.com/docs
+  ```
 * Navigate to API path:
 
   ```bash
