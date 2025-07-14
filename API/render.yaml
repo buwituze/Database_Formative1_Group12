@@ -3,5 +3,5 @@ services:
     name: pipeline-group12-api
     env: python
     runtime: python-3.11.9
-    buildCommand: pip install -r requirements.txt
+    buildCommand: python --version && pip install -r requirements.txt
     startCommand: uvicorn app:app --host=0.0.0.0 --port=10000
